@@ -1,1 +1,7 @@
-# JSW-P2
+# GRUPO G
+
+* Cicero Lucas
+* Sabrina Salviano
+* Israel Lázaro
+* Matheus Valença
+* João Arthur
