@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 01</title>
+    <style>
+       body{
+           font: normal 18px arial;
+           background-color: teal;
+           padding-top: 30pt;
+           text-align: center;
+       }
+       section{
+           color: white;
+           margin-left: 300pt;
+           vertical-align: middle;
+           width: 500pt;
+           background-color: rgb(38, 38, 112);
+       }
+       p#quest{
+           text-align: justify;
+           width: 400pt;
+           padding-left: 25pt;
+       }
+       div{
+           text-align: center;
+           padding: 10pt;
+       }
+
+    </style>
+</head>
+<body>
+    <p id="quest">1. Faça uma função script que leia a temperatura em graus centígrados e converta em graus
+        Farenheit. Continuando, imprima na tela as seguintes mensagens de acordo com a
+        temperatura: “muito frio” (<10); “frio” (10 até 15); “normal” (16 até 22); “quente” (23 até
+        30)</p>
+    <section>
+        <h1>Converso de temperatura</h1>
+        <input type="number" name="temp" id="temp"> °C
+        <input type="button" value="Converter" onclick="convert()"> <br> =
+        <div id="res"><p>RESULTADO</p> </div>
+        <script type="text/javascript" src="funcao01.js"></script>
+    </section>
+</body>
+</html>
